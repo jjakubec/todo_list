@@ -1,11 +1,6 @@
-$( ".button" ).click(function () {
-    $( "#myInput" ).text(clicked);
+  $( ".input1" ).click(function () {
+    todo=document.forms.dolist.value;
     $('ul').append(
-        '<li>'+man+'</li>'
-      );
+      '<li>'+todo+'</li>'
+    );
   });
-  
-
-  $('ul').append(
-    '<li>'+man+'</li>'
-  );
